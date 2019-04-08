@@ -1,0 +1,172 @@
+{
+    "name": "Raiju",
+    "author": "Tobias Timm",
+    "variables":
+    {
+        "blue": "hsl(221, 19%, 50%)",
+        "blue2": "hsl(222, 17%, 60%)",
+        "blue3": "hsl(240, 68%, 79%)",
+        "blue4": "hsl(229, 42%, 69%)",
+        "blue5": "hsl(227, 17%, 52%)",
+        "blue6": "hsl(226, 22%, 19%)",
+        "grey": "hsl(0, 0%, 83%)",
+        "orange": "hsl(21, 92%, 75%)",
+        "orange2": "hsl(23, 15%, 28%)",
+        "purple": "hsl(254, 79%, 74%)",
+        "purple2": "hsl(264, 73%, 82%)",
+        "purple3": "hsl(264, 81%, 84%)",
+        "red": "hsl(357, 79%, 74%)",
+        "red2": "hsl(339, 17%, 26%)",
+        "white": "hsl(0, 0%, 100%)",
+        "white2": "hsl(39, 100%, 90%)",
+        "white3": "hsl(224, 100%, 92%)"
+    },
+    "globals":
+    {
+        "foreground": "var(grey)",
+        "background": "var(blue6)",
+        "caret": "var(grey)",
+        "invisibles": "color(var(blue) alpha(0.38))",
+        "line_highlight": "color(var(blue) alpha(0.19))",
+        "selection": "color(var(blue) alpha(0.38))"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(blue5)",
+            "font_style": "italic"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(purple3)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "\n        punctuation.definition, punctuation.definition.annotation, punctuation.definition.heading, punctuation.definition.list_item, punctuation.definition.thematic-break, punctuation.separator, punctuation.terminator, punctuation.accessor, punctuation.section, punctuation.support.type.property-name.begin, punctuation.support.type.property-name.end\n      ",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Block and Braces",
+            "scope": "\n        meta.brace.round, meta.brace.curly, punctuation.definition, keyword.operator.ternary, meta.brace.curly.graphql, meta.brace.square, punctuation.operation.graphql, punctuation.colon.graphql \n      ",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "constant.numeric.line-number",
+            "foreground": "color(var(white) alpha(0.2))"
+        },
+        {
+            "scope": "constant.numeric.line-number.match",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(purple3)"
+        },
+        {
+            "scope": "constant.language",
+            "foreground": "var(purple2)"
+        },
+        {
+            "scope": "variable.member",
+            "foreground": "var(purple)"
+        },
+        {
+            "scope": "variable.language",
+            "foreground": "var(purple)"
+        },
+        {
+            "scope": "constant.character, constant.other",
+            "foreground": "var(purple2)"
+        },
+        {
+            "scope": "variable.function, meta.selectionset.graphql variable.graphql, meta.type.interface.graphql meta.type.object.graphql variable.graphql",
+            "foreground": "var(white3)"
+        },
+        {
+            "scope": "variable.annotation",
+            "foreground": "var(white2)"
+        },
+        {
+            "scope": "variable.annotation",
+            "foreground": "var(white2)"
+        },
+        {
+            "scope": "keyword, keyword.operator.word",
+            "foreground": "var(blue4)"
+        },
+        {
+            "scope": "keyword.operator",
+            "foreground": "var(white2)"
+        },
+        {
+            "scope": "storage",
+            "foreground": "var(blue4)"
+        },
+        {
+            "scope": "storage.type",
+            "foreground": "var(blue4)"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(white3)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "foreground": "var(white3)"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(blue4)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(white2)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(white3)"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(red)",
+            "background": "var(red2)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(orange)",
+            "background": "var(orange2)"
+        }
+    ]
+}
