@@ -1,0 +1,5576 @@
+[
+  {
+    "class": "label_control", 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.45
+    ], 
+    "font.size": 12
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.45
+    ]
+  }, 
+  {
+    "class": "label_control", 
+    "shadow_color": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "shadow_offset": [
+      0, 
+      1
+    ]
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "shadow_color": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "title_label_control", 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.45
+    ], 
+    "font.size": 24
+  }, 
+  {
+    "class": "title_label_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.45
+    ]
+  }, 
+  {
+    "class": "title_label_control", 
+    "shadow_color": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "shadow_offset": [
+      0, 
+      1
+    ]
+  }, 
+  {
+    "class": "title_label_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "shadow_color": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "button_control", 
+    "content_margin": 8, 
+    "min_size": [
+      80, 
+      0
+    ], 
+    "layer0.inner_margin": 6, 
+    "layer0.texture": "DA UI/assets/textures/inputs/input--bw0--br2.png"
+  }, 
+  {
+    "class": "button_control", 
+    "platforms": [
+      "osx", 
+      "linux"
+    ], 
+    "content_margin": 9
+  }, 
+  {
+    "class": "button_control", 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "layer0.opacity": {
+      "target": 1.0, 
+      "speed": 4.5, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "button_control", 
+    "layer1.tint": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "layer1.opacity": {
+      "target": 0.0, 
+      "speed": 4.5, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer1.inner_margin": 6, 
+    "layer1.texture": "DA UI/assets/textures/inputs/input--bw0--br2.png"
+  }, 
+  {
+    "class": "button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "button_control", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer1.opacity": {
+      "target": 1.0, 
+      "speed": 4.5, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "button_control", 
+    "layer2.tint": [
+      255, 
+      255, 
+      255, 
+      0.025
+    ], 
+    "layer2.opacity": {
+      "target": 0.0, 
+      "speed": 9.0, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer2.inner_margin": 6, 
+    "layer2.texture": "DA UI/assets/textures/inputs/input--bw0--br2.png"
+  }, 
+  {
+    "class": "button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer2.tint": [
+      0, 
+      0, 
+      0, 
+      0.025
+    ]
+  }, 
+  {
+    "class": "button_control", 
+    "attributes": [
+      "pressed"
+    ], 
+    "layer2.opacity": {
+      "target": 1.0, 
+      "speed": 9.0, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "button_control"
+      }
+    ], 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.45
+    ], 
+    "font.size": 12
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "button_control"
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.45
+    ]
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "button_control"
+      }
+    ], 
+    "shadow_color": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "shadow_offset": [
+      0, 
+      1
+    ]
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "button_control"
+      }
+    ], 
+    "shadow_color": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "content_margin": 4, 
+    "layer0.inner_margin": 6, 
+    "layer0.texture": "DA UI/assets/textures/inputs/input--bw0--br2.png"
+  }, 
+  {
+    "class": "text_line_control", 
+    "layer0.opacity": 1.0, 
+    "layer0.tint": [
+      "background", 
+      1.0
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "layer1.draw_center": false, 
+    "layer1.inner_margin": 6, 
+    "layer1.texture": "DA UI/assets/textures/inputs/input--bw1--br2.png"
+  }, 
+  {
+    "class": "text_line_control", 
+    "layer1.tint": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "layer1.opacity": 1.0
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.1
+    ]
+  }, 
+  {
+    "class": "dropdown_button_control", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/dropdown_button.png"
+  }, 
+  {
+    "class": "dropdown_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "dropdown_button_control", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "dropdown_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "scroll_area_control", 
+    "settings": [
+      "overlay_scroll_bars"
+    ], 
+    "overlay": true
+  }, 
+  {
+    "class": "scroll_area_control", 
+    "settings": [
+      "!overlay_scroll_bars"
+    ], 
+    "overlay": false
+  }, 
+  {
+    "class": "scroll_area_control", 
+    "parents": [
+      {
+        "class": "sidebar_container"
+      }
+    ], 
+    "content_margin": [
+      0, 
+      8
+    ]
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "content_margin": 4, 
+    "layer0.opacity": 1.0, 
+    "tint_index": 0
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "settings": [
+      "overlay_scroll_bars"
+    ], 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "settings": [
+      "!overlay_scroll_bars"
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "parents": [
+      {
+        "class": "panel_control console_panel"
+      }
+    ], 
+    "content_margin": [
+      4, 
+      0, 
+      0, 
+      0
+    ]
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "parents": [
+      {
+        "class": "overlay_control"
+      }
+    ], 
+    "content_margin": [
+      4, 
+      0
+    ], 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "parents": [
+      {
+        "class": "sidebar_container"
+      }
+    ], 
+    "content_margin": 4, 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "parents": [
+      {
+        "class": "popup_control auto_complete_popup"
+      }
+    ], 
+    "content_margin": 4
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "attributes": [
+      "dark"
+    ], 
+    "parents": [
+      {
+        "class": "popup_control auto_complete_popup"
+      }
+    ], 
+    "tint_index": 0, 
+    "tint_modifier": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "attributes": [
+      "!dark"
+    ], 
+    "parents": [
+      {
+        "class": "popup_control auto_complete_popup"
+      }
+    ], 
+    "tint_modifier": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "parents": [
+      {
+        "class": "switch_project_window"
+      }
+    ], 
+    "tint_index": -1, 
+    "content_margin": [
+      4, 
+      0, 
+      4, 
+      4
+    ], 
+    "layer0.tint": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "scroll_bar_control", 
+    "parents": [
+      {
+        "class": "switch_project_window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "scroll_corner_control", 
+    "layer0.opacity": 1.0, 
+    "tint_index": 0
+  }, 
+  {
+    "class": "scroll_corner_control", 
+    "parents": [
+      {
+        "class": "sidebar_container"
+      }
+    ], 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "scroll_track_control", 
+    "layer0.texture": "DA UI/assets/textures/scrollbars/scroll--w4--vertical--rounded.png", 
+    "layer0.opacity": 1.0, 
+    "layer0.inner_margin": 2, 
+    "content_margin": 2
+  }, 
+  {
+    "class": "scroll_track_control", 
+    "attributes": [
+      "horizontal"
+    ], 
+    "layer0.texture": "DA UI/assets/textures/scrollbars/scroll--w4--horizontal--rounded.png"
+  }, 
+  {
+    "class": "scroll_track_control", 
+    "attributes": [
+      "dark"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "scroll_track_control", 
+    "attributes": [
+      "!dark"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "puck_control", 
+    "layer0.texture": "DA UI/assets/textures/scrollbars/scroll--w4--vertical--rounded.png", 
+    "layer0.opacity": 1.0, 
+    "layer0.inner_margin": 2, 
+    "content_margin": [
+      0, 
+      12
+    ]
+  }, 
+  {
+    "class": "puck_control", 
+    "attributes": [
+      "horizontal"
+    ], 
+    "layer0.texture": "DA UI/assets/textures/scrollbars/scroll--w4--horizontal--rounded.png", 
+    "content_margin": [
+      12, 
+      0
+    ]
+  }, 
+  {
+    "class": "puck_control", 
+    "attributes": [
+      "dark"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.1
+    ]
+  }, 
+  {
+    "class": "puck_control", 
+    "attributes": [
+      "!dark"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.1
+    ]
+  }, 
+  {
+    "class": "status_bar", 
+    "content_margin": [
+      12, 
+      8, 
+      4, 
+      7
+    ], 
+    "layer0.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "status_bar", 
+    "layer1.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.1
+    ], 
+    "layer1.opacity": 1.0, 
+    "layer1.inner_margin": [
+      0, 
+      1, 
+      0, 
+      0
+    ], 
+    "layer1.draw_center": false
+  }, 
+  {
+    "class": "status_bar", 
+    "attributes": [
+      "panel_visible"
+    ], 
+    "layer1.opacity": 0.0
+  }, 
+  {
+    "class": "status_container", 
+    "content_margin": 0
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "status_bar"
+      }
+    ], 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.45
+    ], 
+    "font.size": 12
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "status_bar"
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.45
+    ]
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "status_button", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "status_button", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "status_bar"
+      }
+    ], 
+    "shadow_color": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "shadow_offset": [
+      0, 
+      1
+    ]
+  }, 
+  {
+    "class": "label_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "status_bar"
+      }
+    ], 
+    "shadow_color": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "status_button", 
+    "content_margin": [
+      12, 
+      0
+    ], 
+    "min_size": [
+      80, 
+      0
+    ]
+  }, 
+  {
+    "class": "panel_button_control", 
+    "content_margin": 0, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/panel_button.png"
+  }, 
+  {
+    "class": "panel_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "panel_button_control", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "panel_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "panel_control", 
+    "content_margin": 12, 
+    "layer0.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "panel_control", 
+    "layer1.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.1
+    ], 
+    "layer1.opacity": 1.0, 
+    "layer1.inner_margin": [
+      0, 
+      1, 
+      0, 
+      0
+    ], 
+    "layer1.draw_center": false
+  }, 
+  {
+    "class": "panel_grid_control", 
+    "inside_spacing": 6, 
+    "outside_hspacing": 0, 
+    "outside_vspacing": 0
+  }, 
+  {
+    "class": "text_output_control", 
+    "color_scheme_tint": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "icon_button_group", 
+    "spacing": 6
+  }, 
+  {
+    "class": "icon_button_control", 
+    "content_margin": 8, 
+    "layer0.inner_margin": 6, 
+    "layer0.texture": "DA UI/assets/textures/inputs/input--bw0--br2.png"
+  }, 
+  {
+    "class": "icon_button_control", 
+    "layer0.opacity": {
+      "target": 0.0, 
+      "speed": 4.5, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_case", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/icon_case.png"
+  }, 
+  {
+    "class": "icon_case", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_case", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_case", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_case", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_context", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/icon_context.png"
+  }, 
+  {
+    "class": "icon_context", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_context", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_context", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_context", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_highlight", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/icon_highlight.png"
+  }, 
+  {
+    "class": "icon_highlight", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_highlight", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_highlight", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_highlight", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_in_selection", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/icon_in_selection.png"
+  }, 
+  {
+    "class": "icon_in_selection", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_in_selection", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_in_selection", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_in_selection", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_preserve_case", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/icon_preserve_case.png"
+  }, 
+  {
+    "class": "icon_preserve_case", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_preserve_case", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_preserve_case", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_preserve_case", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_regex", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/icon_regex.png"
+  }, 
+  {
+    "class": "icon_regex", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_regex", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_regex", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_regex", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_use_buffer", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/icon_use_buffer.png"
+  }, 
+  {
+    "class": "icon_use_buffer", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_use_buffer", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_use_buffer", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_use_buffer", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_whole_word", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/icon_whole_word.png"
+  }, 
+  {
+    "class": "icon_whole_word", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_whole_word", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_whole_word", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_whole_word", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_wrap", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/icon_wrap.png"
+  }, 
+  {
+    "class": "icon_wrap", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_wrap", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_wrap", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_wrap", 
+    "parents": [
+      {
+        "class": "icon_button_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "panel_close_button", 
+    "content_margin": 0, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/close.png"
+  }, 
+  {
+    "class": "panel_close_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "panel_close_button", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "panel_close_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "panel_control find_panel", 
+    "content_margin": [
+      6, 
+      12, 
+      6, 
+      11
+    ]
+  }, 
+  {
+    "class": "panel_control replace_panel", 
+    "content_margin": [
+      6, 
+      12, 
+      6, 
+      11
+    ]
+  }, 
+  {
+    "class": "panel_control find_in_files_panel", 
+    "content_margin": [
+      6, 
+      12, 
+      12, 
+      11
+    ]
+  }, 
+  {
+    "class": "panel_control input_panel", 
+    "content_margin": 12
+  }, 
+  {
+    "class": "panel_control output_panel", 
+    "content_margin": [
+      0, 
+      8
+    ]
+  }, 
+  {
+    "class": "panel_control console_panel", 
+    "content_margin": 12
+  }, 
+  {
+    "class": "overlay_control", 
+    "content_margin": [
+      15, 
+      16, 
+      15, 
+      31
+    ], 
+    "layer0.opacity": 1.0, 
+    "layer0.texture": "DA UI/assets/textures/overlay/overlay_shadow--mt10.png", 
+    "layer0.inner_margin": [
+      24, 
+      19, 
+      24, 
+      34
+    ], 
+    "layer1.texture": "DA UI/assets/textures/overlay/overlay--mt10--bw0--br4.png", 
+    "layer1.inner_margin": [
+      20, 
+      15, 
+      20, 
+      30
+    ], 
+    "layer1.tint": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "layer1.opacity": 1.0
+  }, 
+  {
+    "class": "overlay_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "overlay_control"
+      }
+    ], 
+    "content_margin": [
+      52, 
+      8, 
+      8, 
+      8
+    ], 
+    "layer0.inner_margin": 6, 
+    "layer0.texture": "DA UI/assets/textures/inputs/input--bw0--br2.png"
+  }, 
+  {
+    "class": "text_line_control", 
+    "platforms": [
+      "osx"
+    ], 
+    "parents": [
+      {
+        "class": "overlay_control"
+      }
+    ], 
+    "content_margin": [
+      52, 
+      13, 
+      13, 
+      13
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "platforms": [
+      "linux"
+    ], 
+    "parents": [
+      {
+        "class": "overlay_control"
+      }
+    ], 
+    "content_margin": [
+      52, 
+      10, 
+      10, 
+      10
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "overlay_control"
+      }
+    ], 
+    "layer0.opacity": 1.0, 
+    "layer0.tint": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "color_scheme_tint": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "overlay_control"
+      }
+    ], 
+    "layer0.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "color_scheme_tint": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "overlay_control"
+      }
+    ], 
+    "layer1.opacity": 0.0
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "overlay_control"
+      }
+    ], 
+    "layer2.inner_margin": [
+      52, 
+      48, 
+      0, 
+      0
+    ], 
+    "layer2.draw_center": false, 
+    "layer2.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer2.texture": "DA UI/assets/textures/inputs/input_search.png", 
+    "layer2.opacity": 1.0
+  }, 
+  {
+    "class": "quick_panel", 
+    "row_padding": [
+      17, 
+      9
+    ], 
+    "layer0.opacity": 1.0, 
+    "layer0.tint": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "dark_content": true
+  }, 
+  {
+    "class": "quick_panel", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "dark_content": false
+  }, 
+  {
+    "class": "quick_panel_row", 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "mini_quick_panel_row", 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "quick_panel_row", 
+    "attributes": [
+      "selected"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "mini_quick_panel_row", 
+    "attributes": [
+      "selected"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "quick_panel_row", 
+    "attributes": [
+      "selected"
+    ], 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "mini_quick_panel_row", 
+    "attributes": [
+      "selected"
+    ], 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "quick_panel_label", 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.45
+    ], 
+    "font.size": 13
+  }, 
+  {
+    "class": "quick_panel_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.45
+    ]
+  }, 
+  {
+    "class": "quick_panel_label", 
+    "match_fg": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ]
+  }, 
+  {
+    "class": "quick_panel_label", 
+    "selected_fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "quick_panel_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "selected_fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "quick_panel_label", 
+    "selected_match_fg": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ]
+  }, 
+  {
+    "class": "quick_panel_path_label", 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.3
+    ], 
+    "font.size": 11
+  }, 
+  {
+    "class": "quick_panel_path_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.3
+    ]
+  }, 
+  {
+    "class": "quick_panel_path_label", 
+    "match_fg": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ]
+  }, 
+  {
+    "class": "quick_panel_path_label", 
+    "selected_fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.45
+    ]
+  }, 
+  {
+    "class": "quick_panel_path_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "selected_fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.45
+    ]
+  }, 
+  {
+    "class": "quick_panel_path_label", 
+    "selected_match_fg": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ]
+  }, 
+  {
+    "class": "panel_control", 
+    "parents": [
+      {
+        "class": "switch_project_window"
+      }
+    ], 
+    "content_margin": [
+      0, 
+      6
+    ], 
+    "layer0.tint": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "panel_control", 
+    "parents": [
+      {
+        "class": "switch_project_window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "switch_project_window"
+      }
+    ], 
+    "content_margin": [
+      52, 
+      8, 
+      8, 
+      8
+    ], 
+    "layer0.inner_margin": 6, 
+    "layer0.texture": "DA UI/assets/textures/inputs/input--bw0--br2.png"
+  }, 
+  {
+    "class": "text_line_control", 
+    "platforms": [
+      "osx"
+    ], 
+    "parents": [
+      {
+        "class": "switch_project_window"
+      }
+    ], 
+    "content_margin": [
+      52, 
+      13, 
+      13, 
+      13
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "platforms": [
+      "linux"
+    ], 
+    "parents": [
+      {
+        "class": "switch_project_window"
+      }
+    ], 
+    "content_margin": [
+      52, 
+      10, 
+      10, 
+      10
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "switch_project_window"
+      }
+    ], 
+    "layer0.opacity": 1.0, 
+    "layer0.tint": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "color_scheme_tint": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "switch_project_window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "color_scheme_tint": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "switch_project_window"
+      }
+    ], 
+    "layer1.opacity": 0.0
+  }, 
+  {
+    "class": "text_line_control", 
+    "parents": [
+      {
+        "class": "switch_project_window"
+      }
+    ], 
+    "layer2.inner_margin": [
+      52, 
+      48, 
+      0, 
+      0
+    ], 
+    "layer2.draw_center": false, 
+    "layer2.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer2.texture": "DA UI/assets/textures/inputs/input_search.png", 
+    "layer2.opacity": 1.0
+  }, 
+  {
+    "class": "tabset_control", 
+    "content_margin": [
+      12, 
+      0, 
+      0, 
+      6
+    ], 
+    "tab_height": 43, 
+    "tab_width": 128, 
+    "tab_overlap": 0, 
+    "tab_min_width": 64, 
+    "layer0.tint": [
+      "background", 
+      1.0
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "tabset_control", 
+    "tint_index": 1, 
+    "layer1.opacity": 1.0, 
+    "layer1.draw_center": false, 
+    "layer1.inner_margin": [
+      0, 
+      0, 
+      0, 
+      6
+    ], 
+    "tint_modifier": [
+      "background", 
+      1.0
+    ]
+  }, 
+  {
+    "class": "tabset_control", 
+    "settings": [
+      "mouse_wheel_switches_tabs", 
+      "!enable_tab_scrolling"
+    ], 
+    "mouse_wheel_switch": true
+  }, 
+  {
+    "class": "tab_control", 
+    "layer0.texture": "DA UI/assets/textures/tabs/tab--default--mb0--bw0--br0.png", 
+    "layer0.inner_margin": [
+      4, 
+      4
+    ], 
+    "layer0.opacity": 1.0, 
+    "layer0.tint": [
+      "background", 
+      1.0
+    ], 
+    "content_margin": [
+      8, 
+      12, 
+      8, 
+      13
+    ], 
+    "hit_test_level": 0.25, 
+    "max_margin_trim": 2
+  }, 
+  {
+    "class": "tab_control", 
+    "layer3.draw_center": false, 
+    "layer3.inner_margin": [
+      4, 
+      4
+    ], 
+    "layer3.opacity": 0.0, 
+    "layer3.texture": "DA UI/assets/textures/tabs/tab--default--underlined--mb0--bw1--br0.png"
+  }, 
+  {
+    "class": "tab_control", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer3.tint": [
+      255, 
+      255, 
+      255, 
+      0.2
+    ], 
+    "layer3.opacity": 1.0
+  }, 
+  {
+    "class": "tab_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer3.tint": [
+      0, 
+      0, 
+      0, 
+      0.2
+    ]
+  }, 
+  {
+    "class": "tab_control", 
+    "attributes": [
+      "dirty"
+    ], 
+    "layer3.opacity": 0.0
+  }, 
+  {
+    "class": "tab_control", 
+    "attributes": [
+      "dirty", 
+      "hover"
+    ], 
+    "layer3.tint": [
+      255, 
+      255, 
+      255, 
+      0.2
+    ], 
+    "layer3.opacity": 1.0
+  }, 
+  {
+    "class": "tab_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "dirty", 
+      "hover"
+    ], 
+    "layer3.tint": [
+      0, 
+      0, 
+      0, 
+      0.2
+    ]
+  }, 
+  {
+    "class": "tab_control", 
+    "attributes": [
+      "selected"
+    ], 
+    "layer3.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer3.opacity": 1.0, 
+    "layer3.texture": "DA UI/assets/textures/tabs/tab--default--underlined--mb0--bw1--br0.png"
+  }, 
+  {
+    "class": "tab_control", 
+    "attributes": [
+      "selected", 
+      "hover"
+    ], 
+    "layer3.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer3.opacity": 1.0, 
+    "layer3.texture": "DA UI/assets/textures/tabs/tab--default--underlined--mb0--bw1--br0.png"
+  }, 
+  {
+    "class": "tab_control", 
+    "attributes": [
+      "selected", 
+      "dirty"
+    ], 
+    "layer3.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer3.opacity": 1.0, 
+    "layer3.texture": "DA UI/assets/textures/tabs/tab--default--underlined--mb0--bw1--br0.png"
+  }, 
+  {
+    "class": "tab_control", 
+    "attributes": [
+      "selected", 
+      "dirty", 
+      "hover"
+    ], 
+    "layer3.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer3.opacity": 1.0, 
+    "layer3.texture": "DA UI/assets/textures/tabs/tab--default--underlined--mb0--bw1--br0.png"
+  }, 
+  {
+    "class": "tab_label", 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.45
+    ], 
+    "font.size": 12
+  }, 
+  {
+    "class": "tab_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.45
+    ]
+  }, 
+  {
+    "class": "tab_label", 
+    "parents": [
+      {
+        "class": "tab_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "tab_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tab_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "tab_label", 
+    "shadow_color": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "shadow_offset": [
+      0, 
+      1
+    ]
+  }, 
+  {
+    "class": "tab_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "shadow_color": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "tab_label", 
+    "attributes": [
+      "transient"
+    ], 
+    "font.italic": true
+  }, 
+  {
+    "class": "tab_close_button", 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.texture": "DA UI/assets/icons/default/close.png", 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "tab_close_button", 
+    "settings": [
+      "show_tab_close_buttons"
+    ], 
+    "content_margin": 8
+  }, 
+  {
+    "class": "tab_close_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "tab_close_button", 
+    "parents": [
+      {
+        "class": "tab_control", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.opacity": 0.45
+  }, 
+  {
+    "class": "tab_close_button", 
+    "parents": [
+      {
+        "class": "tab_control", 
+        "attributes": [
+          "dirty"
+        ]
+      }
+    ], 
+    "layer0.opacity": 0.45
+  }, 
+  {
+    "class": "tab_close_button", 
+    "parents": [
+      {
+        "class": "tab_control", 
+        "attributes": [
+          "dirty"
+        ]
+      }
+    ], 
+    "layer0.texture": "DA UI/assets/icons/default/dirty.png"
+  }, 
+  {
+    "class": "tab_close_button", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.texture": "DA UI/assets/icons/default/close.png", 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "tab_close_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "tab_close_button", 
+    "parents": [
+      {
+        "class": "tab_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": 0.9
+  }, 
+  {
+    "class": "tab_close_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tab_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "tab_close_button", 
+    "parents": [
+      {
+        "class": "tab_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "tab_close_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tab_control", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "tab_close_button", 
+    "parents": [
+      {
+        "class": "tab_control", 
+        "attributes": [
+          "selected", 
+          "dirty"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ]
+  }, 
+  {
+    "class": "show_tabs_dropdown_button", 
+    "content_margin": [
+      17, 
+      8
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/tab_dropdown.png"
+  }, 
+  {
+    "class": "show_tabs_dropdown_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "show_tabs_dropdown_button", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "show_tabs_dropdown_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "scroll_tabs_left_button", 
+    "content_margin": 0, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/tab_scroll_left.png"
+  }, 
+  {
+    "class": "scroll_tabs_left_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "scroll_tabs_left_button", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "scroll_tabs_left_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "scroll_tabs_right_button", 
+    "content_margin": 0, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/tab_scroll_right.png"
+  }, 
+  {
+    "class": "scroll_tabs_right_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "scroll_tabs_right_button", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "scroll_tabs_right_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "sidebar_container", 
+    "content_margin": [
+      0, 
+      0, 
+      1, 
+      0
+    ], 
+    "layer0.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "sidebar_container", 
+    "layer3.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.1
+    ], 
+    "layer3.opacity": 1.0, 
+    "layer3.inner_margin": [
+      0, 
+      0, 
+      1, 
+      0
+    ], 
+    "layer3.draw_center": false
+  }, 
+  {
+    "class": "sidebar_tree", 
+    "row_padding": [
+      18, 
+      7
+    ], 
+    "indent": 12, 
+    "indent_offset": 14, 
+    "indent_top_level": false, 
+    "spacer_rows": true, 
+    "dark_content": true
+  }, 
+  {
+    "class": "sidebar_tree", 
+    "platforms": [
+      "windows"
+    ], 
+    "row_padding": [
+      18, 
+      7, 
+      18, 
+      6
+    ]
+  }, 
+  {
+    "class": "sidebar_tree", 
+    "platforms": [
+      "linux"
+    ], 
+    "row_padding": [
+      18, 
+      8, 
+      18, 
+      7
+    ]
+  }, 
+  {
+    "class": "sidebar_tree", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "dark_content": false
+  }, 
+  {
+    "class": "tree_row", 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "tree_row", 
+    "attributes": [
+      "selectable"
+    ], 
+    "layer1.tint": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "layer1.opacity": 0.0
+  }, 
+  {
+    "class": "tree_row", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "selectable"
+    ], 
+    "layer1.tint": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "tree_row", 
+    "attributes": [
+      "selectable", 
+      "selected"
+    ], 
+    "layer1.opacity": 1.0
+  }, 
+  {
+    "class": "tree_row", 
+    "attributes": [
+      "selectable", 
+      "selected", 
+      "hover"
+    ], 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "sidebar_heading", 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.3
+    ], 
+    "font.size": 11
+  }, 
+  {
+    "class": "sidebar_heading", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.3
+    ]
+  }, 
+  {
+    "class": "sidebar_heading", 
+    "shadow_color": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "shadow_offset": [
+      0, 
+      1
+    ]
+  }, 
+  {
+    "class": "sidebar_heading", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "shadow_color": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "sidebar_label", 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.45
+    ], 
+    "font.size": 12
+  }, 
+  {
+    "class": "sidebar_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.45
+    ]
+  }, 
+  {
+    "class": "sidebar_label", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "sidebar_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "sidebar_label", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expandable", 
+          "expanded"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "sidebar_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expandable", 
+          "expanded"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "sidebar_label", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "sidebar_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "sidebar_label", 
+    "shadow_color": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "shadow_offset": [
+      0, 
+      1
+    ]
+  }, 
+  {
+    "class": "sidebar_label", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "shadow_color": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "sidebar_label", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expandable"
+        ]
+      }
+    ], 
+    "settings": [
+      "bold_folder_labels"
+    ], 
+    "font.bold": true
+  }, 
+  {
+    "class": "close_button", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.texture": "DA UI/assets/icons/default/close.png", 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "close_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "close_button", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.opacity": 0.45
+  }, 
+  {
+    "class": "close_button", 
+    "attributes": [
+      "dirty"
+    ], 
+    "layer0.opacity": 0.45
+  }, 
+  {
+    "class": "close_button", 
+    "attributes": [
+      "dirty"
+    ], 
+    "layer0.texture": "DA UI/assets/icons/default/dirty.png"
+  }, 
+  {
+    "class": "close_button", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.texture": "DA UI/assets/icons/default/close.png", 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "close_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "close_button", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": 0.9
+  }, 
+  {
+    "class": "close_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "close_button", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "close_button", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "close_button", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "attributes": [
+      "dirty"
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ]
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/disclosure_collapsed.png"
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expanded"
+        ]
+      }
+    ], 
+    "layer0.texture": "DA UI/assets/icons/default/disclosure_expanded.png"
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expanded"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expanded"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expanded", 
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expanded", 
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "disclosure_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_folder", 
+    "content_margin": [
+      8, 
+      8, 
+      9, 
+      8
+    ], 
+    "layer0.inner_margin": [
+      16, 
+      16, 
+      0, 
+      0
+    ], 
+    "layer0.draw_center": false, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/folder_closed.png"
+  }, 
+  {
+    "class": "icon_folder", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_folder", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expanded"
+        ]
+      }
+    ], 
+    "layer0.texture": "DA UI/assets/icons/default/folder_opened.png"
+  }, 
+  {
+    "class": "icon_folder", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_folder", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_folder", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expanded"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_folder", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "expanded", 
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_folder", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_folder_loading", 
+    "content_margin": [
+      8, 
+      8, 
+      9, 
+      8
+    ], 
+    "layer0.inner_margin": [
+      16, 
+      16, 
+      0, 
+      0
+    ], 
+    "layer0.draw_center": false, 
+    "layer1.inner_margin": [
+      16, 
+      16, 
+      0, 
+      0
+    ], 
+    "layer1.draw_center": false, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/folder_closed.png", 
+    "layer1.tint": [
+      255, 
+      255, 
+      255, 
+      0.75
+    ], 
+    "layer1.opacity": 1.0, 
+    "layer1.texture": {
+      "keyframes": [
+        "DA UI/assets/icons/default/folder_loading_01.png", 
+        "DA UI/assets/icons/default/folder_loading_02.png", 
+        "DA UI/assets/icons/default/folder_loading_03.png", 
+        "DA UI/assets/icons/default/folder_loading_04.png", 
+        "DA UI/assets/icons/default/folder_loading_05.png", 
+        "DA UI/assets/icons/default/folder_loading_06.png", 
+        "DA UI/assets/icons/default/folder_loading_07.png", 
+        "DA UI/assets/icons/default/folder_loading_08.png", 
+        "DA UI/assets/icons/default/folder_loading_09.png", 
+        "DA UI/assets/icons/default/folder_loading_10.png", 
+        "DA UI/assets/icons/default/folder_loading_11.png", 
+        "DA UI/assets/icons/default/folder_loading_12.png", 
+        "DA UI/assets/icons/default/folder_loading_13.png", 
+        "DA UI/assets/icons/default/folder_loading_14.png", 
+        "DA UI/assets/icons/default/folder_loading_15.png", 
+        "DA UI/assets/icons/default/folder_loading_16.png", 
+        "DA UI/assets/icons/default/folder_loading_17.png", 
+        "DA UI/assets/icons/default/folder_loading_18.png", 
+        "DA UI/assets/icons/default/folder_loading_19.png", 
+        "DA UI/assets/icons/default/folder_loading_20.png", 
+        "DA UI/assets/icons/default/folder_loading_21.png", 
+        "DA UI/assets/icons/default/folder_loading_22.png", 
+        "DA UI/assets/icons/default/folder_loading_23.png", 
+        "DA UI/assets/icons/default/folder_loading_24.png"
+      ], 
+      "loop": true, 
+      "frame_time": 0.05
+    }
+  }, 
+  {
+    "class": "icon_folder_loading", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_folder_loading", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      0, 
+      0, 
+      0, 
+      0.75
+    ]
+  }, 
+  {
+    "class": "icon_folder_loading", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_folder_loading", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_folder_loading", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      0, 
+      0, 
+      0, 
+      0.75
+    ]
+  }, 
+  {
+    "class": "icon_folder_loading", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      255, 
+      255, 
+      255, 
+      0.75
+    ]
+  }, 
+  {
+    "class": "icon_folder_loading", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_folder_loading", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      0, 
+      0, 
+      0, 
+      0.75
+    ]
+  }, 
+  {
+    "class": "icon_folder_loading", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      255, 
+      255, 
+      255, 
+      0.75
+    ]
+  }, 
+  {
+    "class": "icon_folder_dup", 
+    "content_margin": [
+      8, 
+      8, 
+      9, 
+      8
+    ], 
+    "layer0.inner_margin": [
+      16, 
+      16, 
+      0, 
+      0
+    ], 
+    "layer0.draw_center": false, 
+    "layer1.inner_margin": [
+      16, 
+      16, 
+      0, 
+      0
+    ], 
+    "layer1.draw_center": false, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/folder_closed.png", 
+    "layer1.tint": [
+      255, 
+      255, 
+      255, 
+      0.75
+    ], 
+    "layer1.opacity": 1.0, 
+    "layer1.texture": "DA UI/assets/icons/default/folder_symlink.png"
+  }, 
+  {
+    "class": "icon_folder_dup", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_folder_dup", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      0, 
+      0, 
+      0, 
+      0.75
+    ]
+  }, 
+  {
+    "class": "icon_folder_dup", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_folder_dup", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_folder_dup", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      0, 
+      0, 
+      0, 
+      0.75
+    ]
+  }, 
+  {
+    "class": "icon_folder_dup", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      255, 
+      255, 
+      255, 
+      0.75
+    ]
+  }, 
+  {
+    "class": "icon_folder_dup", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_folder_dup", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      0, 
+      0, 
+      0, 
+      0.75
+    ]
+  }, 
+  {
+    "class": "icon_folder_dup", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer1.tint": [
+      255, 
+      255, 
+      255, 
+      0.75
+    ]
+  }, 
+  {
+    "class": "icon_file_type", 
+    "content_margin": [
+      8, 
+      8, 
+      9, 
+      8
+    ], 
+    "layer0.inner_margin": [
+      16, 
+      16, 
+      0, 
+      0
+    ], 
+    "layer0.draw_center": false, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_file_type", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "icon_file_type", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "icon_file_type", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "hover"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "icon_file_type", 
+    "parents": [
+      {
+        "class": "tree_row", 
+        "attributes": [
+          "selected"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": {
+      "target": 0.9, 
+      "speed": 3.38, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "fold_button_control", 
+    "content_margin": 8, 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ], 
+    "layer0.opacity": {
+      "target": 0.45, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }, 
+    "layer0.texture": "DA UI/assets/icons/default/fold_closed.png"
+  }, 
+  {
+    "class": "fold_button_control", 
+    "attributes": [
+      "expanded"
+    ], 
+    "layer0.texture": "DA UI/assets/icons/default/fold_opened.png"
+  }, 
+  {
+    "class": "fold_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "fold_button_control", 
+    "parents": [
+      {
+        "class": "text_area_control", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "fold_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "text_area_control", 
+        "attributes": [
+          "file_dark"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "fold_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "text_area_control", 
+        "attributes": [
+          "file_medium_dark"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "fold_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "text_area_control", 
+        "attributes": [
+          "file_medium"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.7
+    ]
+  }, 
+  {
+    "class": "fold_button_control", 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ], 
+    "layer0.opacity": {
+      "target": 0.7, 
+      "speed": 1.12, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "fold_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "fold_button_control", 
+    "parents": [
+      {
+        "class": "text_area_control", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "fold_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "text_area_control", 
+        "attributes": [
+          "file_dark"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "fold_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "text_area_control", 
+        "attributes": [
+          "file_medium_dark"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "fold_button_control", 
+    "parents": [
+      {
+        "class": "window", 
+        "attributes": [
+          "file_light"
+        ]
+      }, 
+      {
+        "class": "text_area_control", 
+        "attributes": [
+          "file_medium"
+        ]
+      }
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "grid_layout_control", 
+    "border_size": 1, 
+    "border_color": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.1
+    ]
+  }, 
+  {
+    "class": "minimap_control", 
+    "viewport_color": [
+      128, 
+      128, 
+      128, 
+      1.0
+    ]
+  }, 
+  {
+    "class": "minimap_control", 
+    "settings": [
+      "always_show_minimap_viewport"
+    ], 
+    "viewport_opacity": {
+      "target": 0.15, 
+      "speed": 0.45, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "minimap_control", 
+    "settings": [
+      "always_show_minimap_viewport"
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "viewport_opacity": {
+      "target": 0.25, 
+      "speed": 0.45, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "minimap_control", 
+    "settings": [
+      "!always_show_minimap_viewport"
+    ], 
+    "viewport_opacity": {
+      "target": 0.0, 
+      "speed": 1.68, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "minimap_control", 
+    "settings": [
+      "!always_show_minimap_viewport"
+    ], 
+    "attributes": [
+      "hover"
+    ], 
+    "viewport_opacity": {
+      "target": 0.25, 
+      "speed": 1.68, 
+      "interpolation": "smoothstep"
+    }
+  }, 
+  {
+    "class": "popup_control", 
+    "content_margin": 0, 
+    "layer0.tint": [
+      "background", 
+      1.0
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "auto_complete", 
+    "row_padding": [
+      9, 
+      6
+    ], 
+    "tint_index": 0, 
+    "tint_modifier": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "auto_complete", 
+    "attributes": [
+      "file_light"
+    ], 
+    "tint_modifier": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "table_row", 
+    "layer0.opacity": 0.0
+  }, 
+  {
+    "class": "table_row", 
+    "attributes": [
+      "selected"
+    ], 
+    "layer0.tint": [
+      255, 
+      255, 
+      255, 
+      0.05
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "table_row", 
+    "attributes": [
+      "selected"
+    ], 
+    "parents": [
+      {
+        "class": "auto_complete", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "layer0.tint": [
+      0, 
+      0, 
+      0, 
+      0.05
+    ]
+  }, 
+  {
+    "class": "auto_complete_label", 
+    "fg": [
+      128, 
+      128, 
+      128, 
+      0.45
+    ]
+  }, 
+  {
+    "class": "auto_complete_label", 
+    "match_fg": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ]
+  }, 
+  {
+    "class": "auto_complete_label", 
+    "selected_fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "auto_complete_label", 
+    "parents": [
+      {
+        "class": "auto_complete", 
+        "attributes": [
+          "file_light"
+        ]
+      }
+    ], 
+    "selected_fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.9
+    ]
+  }, 
+  {
+    "class": "auto_complete_label", 
+    "selected_match_fg": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ]
+  }, 
+  {
+    "class": "tool_tip_control", 
+    "content_margin": [
+      8, 
+      5
+    ], 
+    "layer0.tint": [
+      "background", 
+      128, 
+      128, 
+      128, 
+      0.1
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "tool_tip_control", 
+    "layer1.tint": [
+      "background", 
+      128, 
+      128, 
+      128, 
+      0.2
+    ], 
+    "layer1.opacity": 1.0, 
+    "layer1.inner_margin": 1, 
+    "layer1.draw_center": false
+  }, 
+  {
+    "class": "tool_tip_label_control", 
+    "fg": [
+      "foreground", 
+      128, 
+      128, 
+      128, 
+      0.95
+    ], 
+    "font.size": 11
+  }, 
+  {
+    "class": "dialog", 
+    "content_margin": 12, 
+    "layer0.tint": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.05
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "progress_bar_control", 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      0.05
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "progress_gauge_control", 
+    "layer0.tint": [
+      255, 
+      204, 
+      102, 
+      1.0
+    ], 
+    "layer0.opacity": 1.0
+  }, 
+  {
+    "class": "title_bar", 
+    "bg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.1
+    ], 
+    "fg": [
+      "background", 
+      255, 
+      255, 
+      255, 
+      0.65
+    ]
+  }, 
+  {
+    "class": "title_bar", 
+    "attributes": [
+      "file_light"
+    ], 
+    "fg": [
+      "background", 
+      0, 
+      0, 
+      0, 
+      0.65
+    ]
+  }
+]

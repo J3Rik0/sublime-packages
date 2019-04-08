@@ -1,0 +1,4 @@
+{
+  // Set to false to hide emoji icons in quick panels.
+  "show_quick_panel_icons": true
+}

@@ -1,0 +1,32 @@
+{
+  "DA Dark": {
+    "author": "Ihor Oleksandrov",
+    "colors": {
+      "background": "#262626",
+      "foreground": "#e8e8e8",
+      "comment": "#737070",
+      "accent": "#ffca66",
+      "redish": "#ff6774",
+      "orangish": "#fc9468",
+      "yellowish": "#ffca66",
+      "greenish": "#aad274",
+      "bluish": "#77aee6",
+      "purplish": "#bf93e6"
+    }
+  },
+  "DA Light": {
+    "author": "Ihor Oleksandrov",
+    "colors": {
+      "background": "#ffffff",
+      "foreground": "#626366",
+      "comment": "#a2a3a5",
+      "accent": "#8e68ae",
+      "redish": "#d55a5a",
+      "orangish": "#cf804e",
+      "yellowish": "#be9a39",
+      "greenish": "#699530",
+      "bluish": "#5581ac",
+      "purplish": "#8e68ae"
+    }
+  }
+}

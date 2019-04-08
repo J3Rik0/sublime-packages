@@ -1,0 +1,29 @@
+{
+  // Sublime Text uses font face from `Preferences.sublime-settings`
+  // for widgets (text input and output controls) by default.
+  // This setting allows you to set custom font face for them.
+  // Note:
+  //  - Text alignment may differ depending on the font face you
+  //    want to use, so do this at your own risk.
+  //  - This setting affects all text inputs and output panels.
+  // "font_face": "",
+
+  // We use next font sizes for widgets (text input & output
+  // controls) by default:
+  //  - 12 on macOS,
+  //  - 11 on Windows & Linux.
+  // This setting allows you to set custom font size for them.
+  "font_size": "",
+
+  // Set to true to draw widget shadows. E.g. if the content in one
+  // of those columns is wider than the actual width of the column,
+  // you'll see the shadow if this setting will be enabled.
+  // Note, sometimes this setting doesn't work in that case just
+  // change shadow appearance in the color scheme settings.
+  "draw_shadows": false,
+
+  // Add additional spacing at the top and at the bottom of i/o
+  // controls. You can change it manually to fit your needs.
+  "line_padding_top": 3,
+  "line_padding_bottom": 3
+}

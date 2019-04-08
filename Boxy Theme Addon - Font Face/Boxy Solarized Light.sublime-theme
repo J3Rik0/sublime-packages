@@ -1,0 +1,64 @@
+// > BOXY SOLARIZED LIGHT
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// The most hackable theme for Sublime Text 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[
+  //
+  // >> Controls
+  // ===========================================================================
+
+  {
+    "class": "label_control",
+    "font.face" : "Asap Medium"
+  },
+
+  {
+    "class": "label_control",
+    "parents": [{"class": "panel_control"}],
+    "font.face" : "Asap Medium"
+  },
+
+  //
+  // >> Sidebar
+  // ===========================================================================
+
+  {
+    "class": "sidebar_heading",
+    "font.face": "Asap Medium"
+  },
+
+  {
+    "class": "sidebar_label",
+    "font.face": "Asap Medium",
+	"font.size": 14
+  },
+
+  //
+  // >> Status Bar
+  // ===========================================================================
+
+  {
+    "class": "label_control",
+    "parents": [{"class": "status_bar"}],
+    "font.face": "Asap Medium"
+  },
+
+  //
+  // >> Tabs
+  // ===========================================================================
+
+  {
+    "class": "tab_label",
+    "font.face" : "Asap Medium"
+  },
+
+  //
+  // >> Tooltips
+  // ===========================================================================
+
+  {
+    "class": "tool_tip_label_control",
+    "font.face": "Asap Medium"
+  }
+]
